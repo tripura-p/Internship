@@ -1,0 +1,102 @@
+body{
+    /* background-image: url("india.jpg"); */
+    
+
+    background: rgba(0, 0, 0, 0.4) url("india.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+
+h1{
+    text-align:center;
+    color:rgb(221, 163, 38);
+    font-size:1000%;
+    margin-top: 50px;
+    font-family:     ;
+}
+
+h2{
+    text-align:center;
+    color:rgb(255, 255, 255);   
+    font-size:300%;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: larger;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+
+.get-started-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: 700px;
+    margin-top: 40PX;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: larger;
+}
+
+.get-started-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.navbar {
+    /* background-color: #333; */
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 25px;
+}
+
+.nav-list a:hover {
+    color: #b1a4a4; /* Change to your desired hover color */
+}
+
+.logo-container {
+    width: 50px; /* Set the desired width for the circular container */
+    height: 50px; /* Set the same height as the width for a perfect circle */
+    overflow: hidden;
+    border-radius: 100%; /* This property creates the circular shape */
+}
+
+.logo {
+    width: 100%; /* Ensure the image takes up 100% of the container */
+    height: auto;
+    display: block;
+}
